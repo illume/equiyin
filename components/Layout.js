@@ -26,7 +26,8 @@ export default ({ children, settings = {} }) => (
         font-family: 'Zilla Slab', Helvetica, sans-serif;
         line-height: 1;
         font-size: 32px;
-        color: #FFF;
+        xcolor: #FFF;
+        color: #15FFD6;
         margin: 0;
         padding: 0;
       }
@@ -57,12 +58,14 @@ export default ({ children, settings = {} }) => (
       }
       a {
         color: #FFF;
+        xcolor: #15FFD6;
         text-decoration: none;
       }
       p {
         xbackground: rgba(0.2, 0.2, 0.2, 0.5);
         padding: 10px;
         border-radius: 15px;
+        color: #FFF;
       }
       form input {
         font-size: 1.5rem;

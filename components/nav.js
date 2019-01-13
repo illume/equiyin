@@ -4,9 +4,9 @@ import Link from 'next/link'
 const links = [
   { href: '/about-kat', label: 'About Kat' },
   { href: '/about-yin-yoga', label: 'About Yin Yoga' },
+  { href: '/workshop', label: 'Workshops' },
+  { href: '/thai-yoga-massage', label: 'Thai Yoga Massage' },
   { href: '/shop', label: 'Shop' },
-  { href: '/thai-yoga-massage', label: 'Thai yoga massage' },
-  { href: '/workshop', label: 'Workshop' },
 
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
@@ -55,7 +55,7 @@ const Nav = () => (
       a {
         color: #FFF;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 14px;
       }
     `}</style>
   </nav>
