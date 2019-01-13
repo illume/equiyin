@@ -2,7 +2,12 @@ import React from 'react'
 import Link from 'next/link'
 
 const links = [
-  { href: 'https://github.com/segmentio/create-next-app', label: 'Github' }
+  { href: '/about-kat', label: 'About Kat' },
+  { href: '/about-yin-yoga', label: 'About Yin Yoga' },
+  { href: '/shop', label: 'Shop' },
+  { href: '/thai-yoga-massage', label: 'Thai yoga massage' },
+  { href: '/workshop', label: 'Workshop' },
+
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
@@ -48,7 +53,7 @@ const Nav = () => (
         padding: 6px 8px;
       }
       a {
-        color: #067df7;
+        color: #FFF;
         text-decoration: none;
         font-size: 13px;
       }

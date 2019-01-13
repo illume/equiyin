@@ -14,11 +14,19 @@ export default ({ children, settings = {} }) => (
         display: block;
       }
 
+      html {
+        background: url(/static/background.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
       body {
         font-family: 'Zilla Slab', Helvetica, sans-serif;
         line-height: 1;
-        font-size: 18px;
-        color: #000;
+        font-size: 32px;
+        color: #FFF;
         margin: 0;
         padding: 0;
       }
@@ -36,13 +44,31 @@ export default ({ children, settings = {} }) => (
       }
 
       .util__container {
-        max-width: 75rem;
+        max-width: 600px;
+        margin: 40px auto 60px;
+
+
+        // max-width: 75rem;
         margin-left: auto;
         margin-right: auto;
         padding-left: 20px;
         padding-right: 20px;
         box-sizing: border-box;
       }
+      a {
+        color: #FFF;
+        text-decoration: none;
+      }
+      p {
+        xbackground: rgba(0.2, 0.2, 0.2, 0.5);
+        padding: 10px;
+        border-radius: 15px;
+      }
+      form input {
+        font-size: 1.5rem;
+        margin-right: 6px;
+      }
+
     `}</style>
   </div>
 )

@@ -7,11 +7,38 @@ export default class extends React.Component {
   render() {
     return (
       <Layout>
-        <h1>Welcome to Next!</h1>
+        <h1>Welcome!</h1>
 
-        <Link route='blog/detail' params={{language: 'en', slug: 'lalalala'}}>
-          <a>Hello world</a>
+
+
+        <br/>
+        <Link route='about-kat'>
+          <a>About Kat</a>
+        </Link> | <Link route='about-yin-yoga'>
+          <a>About Yin Yoga</a>
         </Link>
+
+        <br/>
+        <Link route='book'>
+          <a>Book</a>
+        </Link>
+
+        <br/>
+        <Link route='shop'>
+          <a>Shop</a>
+        </Link>
+
+        <br/>
+        <Link route='thai-yoga-massage'>
+          <a>Thai Yoga Massage</a>
+        </Link>
+
+        <br/>
+        <Link route='workshop'>
+          <a>Workshop</a>
+        </Link>
+
+
       </Layout>
     )
   }
