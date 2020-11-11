@@ -11,7 +11,8 @@ export default class extends React.Component {
         <h1>Book</h1>
 		<Contact/>
 
-        <p>The book is coming! Wait for Kat to do writing magic on it ok?</p>
+        <p>Kat is currently researching equestrian biomechanics, rider mobility and recovery from trauma + injury. 
+	   She is the creator of the Equiyin Program and author of the forthcoming book Yin Yoga for Equestrians (Jan 2021)</p>
 
       </Layout>
     )
