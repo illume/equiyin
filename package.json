@@ -8,7 +8,7 @@
     "nstart": "next start"
   },
   "dependencies": {
-    "marked": "^0.6.0",
+    "marked": "^4.0.10",
     "next": "^7.0.2",
     "next-routes": "^1.4.2",
     "react": "^16.7.0",
